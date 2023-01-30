@@ -47,9 +47,15 @@ code {
   height: auto;
   font-size: 1.2rem;
   border-radius: 6px;
+  cursor: pointer;
 }
 .linkedin{
   background-color: #5093E2;
+  color: #FFFFFF;
+}
+.linkedin:hover{
+  
+  background-color: #184170;
   color: #FFFFFF;
 }
 .body-about{

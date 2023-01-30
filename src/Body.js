@@ -7,8 +7,8 @@ export default function Body(){
             <h3 className="body-profession">Frontend Developer</h3>
             <h5 className="body-skills">HTML | CSS | JS | React.js</h5>
             <div className="body-buttons">
-                <button className="body-button email">Email</button>
-                <button className="body-button linkedin">LinkedIn</button>
+                <a href="mailto: anupdhoble15@gmail.com"><button className="body-button email" >Email</button></a>
+                <a href="https://www.linkedin.com/in/anup-dhoble-b57654228/"><button formtarget="_blank" className="body-button linkedin" >LinkedIn</button></a>
             </div>
 
             <div className="body-about">
