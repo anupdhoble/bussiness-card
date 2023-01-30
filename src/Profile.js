@@ -1,9 +1,8 @@
 import React from "react"
 export default function Profile(){
-    return(
-        // <div className="profile-img">
-            <img className="profile_img" src={process.env.PUBLIC_URL + '/img/profile.jpg'}/>
+    return(<>
+        <img className="profile_img" src={process.env.PUBLIC_URL + '/img/profile.jpg'}/>
             
-        // </div>
+        <img className="profile_img"src="https://extension.umaine.edu/diagnostic-lab/wp-content/uploads/sites/22/2018/05/plant-sample-317x317.jpg"></img></>
     )
 }
